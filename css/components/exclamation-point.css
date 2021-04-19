@@ -1,0 +1,15 @@
+.exclamation-point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    font-weight: 600;
+    border: 1px solid tomato;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    color: tomato;
+    margin-left: 4px;
+    user-select: none;
+    cursor: pointer;
+  }
