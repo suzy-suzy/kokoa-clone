@@ -34,6 +34,10 @@
     margin-bottom: 10px;
 }
 
+.more-suggestions__icon:last-child .more-suggestions__icon-image {
+    background-color: rgb(10, 241, 60);
+}
+
 .more-suggestions__icon-image i {
     font-size: 32px;
     color: #fff;
