@@ -8,11 +8,11 @@
 
 .welcome-header__title {
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--purple);
-  width: 50%;
+  width: 60%;
   line-height: 1.2;
 }
 
@@ -27,14 +27,15 @@
 }
 
 #login-form input {
-  border: none;
-  padding: 15px 0;
+  padding: 15px;
   font-size: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--purple);
   transition: border-color 0.3s ease-in-out;
 }
 
@@ -44,6 +45,7 @@
 
 #login-form input:focus {
   border-color: var(--purple);
+  background-color: var(--yellow);
 }
 
 #login-form input[type="submit"] {
@@ -54,14 +56,13 @@
   color: #fff;
 }
 
-#login-form input:nth-child(3) {
-  margin-bottom: 10px;
+#login-form input[type="submit"]:active {
+  background-color: var(--yellow);
+  color: var(--purple);
 }
 
-#login-form input:nth-child(4) {
-  background-color: #fff;
-  border: 1px solid var(--purple);
-  color: var(--purple);
+#login-form input:nth-child(2) {
+  margin-bottom: 30px;
 }
 
 #login-form a {
